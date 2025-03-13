@@ -43,7 +43,7 @@ jobs:
         uses: cloudbees-io/publish-evidence-item@v1
         with:
           content: |-
-            ## JIRA Information for evidence
+            ## JIRA Information for evidence gather
             - **JIRA Issue Key:** "${{ steps.commitinfo.outputs.jira_key }}"
             ## Commit Information
             - **Commit ID:** "${{ steps.commitinfo.outputs.commit_id }}"
